@@ -1,0 +1,26 @@
+<div class="actions">
+  <a href="/" class="button back">Back to Leaderboard</a>
+</div>
+<div class="list_title">
+  <div class="headers">
+    <div class="cell left">Pos</div>
+
+    <div class="cell right">Thru</div>
+    <div class="cell right">Pts</div>
+  </div>
+</div>
+<ul class="player-list list">
+</ul>
+
+<div class="list_title space-top">
+  <div class="headers">
+    <div class="cell left border">Hole</div>
+    <div class="cell left border">Par</div>
+
+    <% _(tee_group.last(tee_group.length).reverse()).each(function(m,i){ %>
+      <div class="cell right"><%= m.get('player_initials') %></div>
+    <% }); %>
+  </div>
+</div>
+<ul class="course-list list">
+</ul>

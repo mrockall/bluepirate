@@ -1,0 +1,16 @@
+<div class="dbl cell right">
+  <select data-pid="<%= player_id %>">
+    <option>-</option>
+    <option <%= score == 1 ? "selected" : "" %> value="1">1</option>
+    <option <%= score == 2 ? "selected" : "" %> value="2">2</option>
+    <option <%= score == 3 ? "selected" : "" %> value="3">3</option>
+    <option <%= score == 4 ? "selected" : "" %> value="4">4</option>
+    <option <%= score == 5 ? "selected" : "" %> value="5">5</option>
+    <option <%= score == 6 ? "selected" : "" %> value="6">6</option>
+    <option <%= score == 7 ? "selected" : "" %> value="7">7</option>
+    <option <%= score == 8 ? "selected" : "" %> value="8">8</option>
+    <option <%= score == 9 ? "selected" : "" %> value="9">9</option>
+    <option <%= score == 10 ? "selected" : "" %> value="10">10</option>
+  </select>
+</div>
+<div class="player"><%= player_name %></div>

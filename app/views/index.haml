@@ -1,0 +1,17 @@
+#main
+  .loading
+    %span
+  .pirate
+    .hat
+    .skull
+    .bone_bottom
+    .bone_top
+  .surface-container
+
+- content_for :view_javascript do
+  :javascript
+    this.InitialData = this.InitialData || {};
+    this.InitialData.CurrentUser = #{@current_user};
+
+= yield_content :view_javascript
+%script{:data => {:main => "#{RACK_ENV == 'production' ? 'js/dist/app' : '/js/main'}"}, :src => '/js/components/requirejs/require.js'}

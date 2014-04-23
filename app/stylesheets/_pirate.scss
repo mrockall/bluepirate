@@ -1,0 +1,119 @@
+.pirate{
+  z-index: 110;
+  position: absolute;
+  opacity: 0;
+  top: 50%; left: 50%;
+  width: 224px;
+  height: 224px;
+  margin: -112px 0 0 -112px;
+
+  .hat{
+    position: absolute;
+    width: 217px;
+    height: 123px;
+    background: url(images/hat.png) 0 0 no-repeat;
+  }
+  .skull{
+    position: absolute;
+    top: 68px; left: 71px;
+    width: 79px;
+    height: 106px;
+    background: url(images/skull.png) 0 0 no-repeat;
+  }
+  .bone_bottom{
+    position: absolute;
+    top: 140px; left: 67px;
+    width: 93px;
+    height: 67px;
+    background: url(images/bone_bottom.png) 0 0 no-repeat;
+  }
+  .bone_top{
+    position: absolute;
+    top: 141px; left: 63px;
+    width: 92px;
+    height: 67px;
+    background: url(images/bone_top.png) 0 0 no-repeat;
+  }
+
+  &.kickstart{
+    opacity: 1;
+
+    .hat{
+      @include animation(kickstart_hat 0.6s cubic-bezier(.24,.91,.6,.98) forwards);
+    }
+    .skull{
+      @include animation(kickstart_skull 1s cubic-bezier(.24,.91,.6,.98) forwards);
+    }
+    .bone_bottom{
+      @include animation(kickstart_bone_bottom 0.5s cubic-bezier(.24,.91,.6,.98) forwards);
+    }
+    .bone_top{
+      @include animation(kickstart_bone_top 0.5s cubic-bezier(.24,.91,.6,.98) forwards);
+    }
+  }
+
+  &.header{
+    opacity: 1;
+    @include animation(pirate_header 0.3s cubic-bezier(.24,.91,.6,.98) 0.5s forwards);
+  }
+}
+
+@include keyframe(kickstart_hat) {
+  0% {
+    @include transform(rotate(10deg) translateX(10px) translateY(-30px));
+    opacity: 0;
+  }
+  65% {
+    @include transform(rotate(10deg) translateX(10px) translateY(0));
+    opacity: 1;
+  }
+  100% {
+    @include transform(rotate(0) translateX(0));
+  }
+}
+
+@include keyframe(kickstart_skull) {
+  0% {
+    @include transform(translateY(-50px));
+    opacity: 0;
+  }
+  75% {
+    @include transform(translateY(0));
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@include keyframe(kickstart_bone_bottom) {
+  0% {
+    @include transform(translateX(-100px));
+    opacity: 0;
+  }
+  100% {
+    @include transform(translateX(0));
+    opacity: 1;
+  }
+}
+
+@include keyframe(kickstart_bone_top) {
+  0% {
+    @include transform(translateX(+100px));
+    opacity: 0;
+  }
+  100% {
+    @include transform(translateX(0));
+    opacity: 1;
+  }
+}
+
+@include keyframe(pirate_header) {
+  0% {
+    @include transform(scale(1));
+    top: 50%;
+  }
+  100% {
+    @include transform(scale(0.7));
+    top: 100px;
+  }
+}

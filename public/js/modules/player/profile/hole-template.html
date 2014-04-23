@@ -1,0 +1,12 @@
+<div class="cell left border"><%= number %></div>
+
+<div class="cell left"><%= length %>m</div>
+<div class="cell left"><%= par %></div>
+<div class="cell left border"><%= index %></div>
+
+<div class="cell right"><%= !_.isNull(points) ? points : "-" %></div>
+<div class="cell result right">
+  <div class="<%= result %>">
+    <%= !_.isNull(score) ? score : "-" %>
+  </div>
+</div>

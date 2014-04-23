@@ -1,0 +1,10 @@
+<a href="player/<%= player_id %>">
+  <% if(parseInt(through) == 0){ %>
+    <div class="cell right shaded border"><%= time %></div>
+  <% } else { %>
+    <div class="cell left border position"><%= position %></div>
+    <div class="cell right shaded border"><%= through %></div>
+    <div class="cell right border"><%= points %></div>
+  <% } %>
+  <div class="name"><%= player_name %></div>
+</a>

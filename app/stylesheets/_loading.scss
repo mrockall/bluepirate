@@ -1,0 +1,27 @@
+.loading{
+  z-index: 100;
+  position: fixed;
+  top: 0; bottom: 0;
+  left: 0; right: 0;
+  text-align: center;
+}
+.loading span{
+  position: absolute;
+  top: 50%; left: 50%;
+  display: inline-block;
+  display: none;
+  margin: -30px 0 0 -30px;
+  border-width: 30px;
+  border-radius: 50%;
+  border-style: double;
+  border-color: #505050 transparent;
+  @include animation(spin 1s linear infinite);
+}
+
+@include keyframe(spin) {
+  100% {
+    -webkit-transform: rotate(359deg);
+    -moz-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}

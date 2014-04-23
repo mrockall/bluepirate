@@ -1,0 +1,46 @@
+.surface-container{
+  max-width: 450px;
+  margin: 0 auto;
+
+  .surface{
+    display: none;
+    opacity: 0;
+    padding-top: 200px;
+
+    &.animate-in{
+      display: block;
+      @include animation(fade_in 0.8s cubic-bezier(.24,.91,.6,.98) 0.25s forwards);
+    }
+    &.shown{
+      display: block;
+      opacity: 1;
+    }
+    &.animate-out{
+      @include animation(fade_out 0.25s cubic-bezier(.24,.91,.6,.98) forwards);
+    }
+    &.hidden{
+      display: none;
+    }
+  }
+}
+
+@include keyframe(fade_in) {
+  0% {
+    @include transform(translateY(10px));
+    opacity: 0;
+  }
+  100% {
+    @include transform(translateY(0));
+    opacity: 1;
+  }
+}
+
+@include keyframe(fade_out) {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    @include transform(scale(0.95));
+    opacity: 0;
+  }
+}

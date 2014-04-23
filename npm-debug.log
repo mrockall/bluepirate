@@ -1,0 +1,559 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Library/WebServer/Server/blue_pirate',
+5 verbose install   [ 'backbone',
+5 verbose install     'hammerjs',
+5 verbose install     'imager.js',
+5 verbose install     'svg.js',
+5 verbose install     'underscore',
+5 verbose install     'requirejs',
+5 verbose install     'requirejs-text',
+5 verbose install     'jquery',
+5 verbose install     'jquery.scrollTo',
+5 verbose install     'grunt',
+5 verbose install     'grunt-contrib-jshint',
+5 verbose install     'grunt-contrib-uglify',
+5 verbose install     'grunt-contrib-requirejs' ] ]
+6 info preinstall BluePirate@0.1.0
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'backbone@~1.1.0', null ]
+9 verbose cache add name=undefined spec="backbone@~1.1.0" args=["backbone@~1.1.0",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'backbone@~1.1.0',
+10 verbose parsed url   path: 'backbone@~1.1.0',
+10 verbose parsed url   href: 'backbone@~1.1.0' }
+11 verbose cache add name="backbone" spec="~1.1.0" args=["backbone","~1.1.0"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: '~1.1.0',
+12 verbose parsed url   path: '~1.1.0',
+12 verbose parsed url   href: '~1.1.0' }
+13 verbose addNamed [ 'backbone', '~1.1.0' ]
+14 verbose addNamed [ null, '>=1.1.0-0 <1.2.0-0' ]
+15 verbose cache add [ 'hammerjs@~1.0.10', null ]
+16 verbose cache add name=undefined spec="hammerjs@~1.0.10" args=["hammerjs@~1.0.10",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'hammerjs@~1.0.10',
+17 verbose parsed url   path: 'hammerjs@~1.0.10',
+17 verbose parsed url   href: 'hammerjs@~1.0.10' }
+18 verbose cache add name="hammerjs" spec="~1.0.10" args=["hammerjs","~1.0.10"]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '~1.0.10',
+19 verbose parsed url   path: '~1.0.10',
+19 verbose parsed url   href: '~1.0.10' }
+20 verbose addNamed [ 'hammerjs', '~1.0.10' ]
+21 verbose addNamed [ null, '>=1.0.10-0 <1.1.0-0' ]
+22 verbose cache add [ 'svg.js@~1.0.0-rc.6', null ]
+23 verbose cache add name=undefined spec="svg.js@~1.0.0-rc.6" args=["svg.js@~1.0.0-rc.6",null]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: 'svg.js@~1.0.0-rc.6',
+24 verbose parsed url   path: 'svg.js@~1.0.0-rc.6',
+24 verbose parsed url   href: 'svg.js@~1.0.0-rc.6' }
+25 verbose cache add name="svg.js" spec="~1.0.0-rc.6" args=["svg.js","~1.0.0-rc.6"]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: '~1.0.0-rc.6',
+26 verbose parsed url   path: '~1.0.0-rc.6',
+26 verbose parsed url   href: '~1.0.0-rc.6' }
+27 verbose addNamed [ 'svg.js', '~1.0.0-rc.6' ]
+28 verbose addNamed [ null, '>=1.0.0-rc.6 <1.1.0-0' ]
+29 silly lockFile 3d92b5cd-backbone-1-1-0 backbone@~1.1.0
+30 verbose lock backbone@~1.1.0 /Users/mrockall/.npm/3d92b5cd-backbone-1-1-0.lock
+31 silly lockFile 28f5aa6b-hammerjs-1-0-10 hammerjs@~1.0.10
+32 verbose lock hammerjs@~1.0.10 /Users/mrockall/.npm/28f5aa6b-hammerjs-1-0-10.lock
+33 verbose cache add [ 'underscore@~1.5.2', null ]
+34 verbose cache add name=undefined spec="underscore@~1.5.2" args=["underscore@~1.5.2",null]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: 'underscore@~1.5.2',
+35 verbose parsed url   path: 'underscore@~1.5.2',
+35 verbose parsed url   href: 'underscore@~1.5.2' }
+36 verbose cache add name="underscore" spec="~1.5.2" args=["underscore","~1.5.2"]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: '~1.5.2',
+37 verbose parsed url   path: '~1.5.2',
+37 verbose parsed url   href: '~1.5.2' }
+38 verbose addNamed [ 'underscore', '~1.5.2' ]
+39 verbose addNamed [ null, '>=1.5.2-0 <1.6.0-0' ]
+40 silly lockFile dba44b4a-underscore-1-5-2 underscore@~1.5.2
+41 verbose lock underscore@~1.5.2 /Users/mrockall/.npm/dba44b4a-underscore-1-5-2.lock
+42 verbose cache add [ 'imager.js@~0.2.0', null ]
+43 verbose cache add name=undefined spec="imager.js@~0.2.0" args=["imager.js@~0.2.0",null]
+44 verbose parsed url { protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: 'imager.js@~0.2.0',
+44 verbose parsed url   path: 'imager.js@~0.2.0',
+44 verbose parsed url   href: 'imager.js@~0.2.0' }
+45 verbose cache add name="imager.js" spec="~0.2.0" args=["imager.js","~0.2.0"]
+46 verbose parsed url { protocol: null,
+46 verbose parsed url   slashes: null,
+46 verbose parsed url   auth: null,
+46 verbose parsed url   host: null,
+46 verbose parsed url   port: null,
+46 verbose parsed url   hostname: null,
+46 verbose parsed url   hash: null,
+46 verbose parsed url   search: null,
+46 verbose parsed url   query: null,
+46 verbose parsed url   pathname: '~0.2.0',
+46 verbose parsed url   path: '~0.2.0',
+46 verbose parsed url   href: '~0.2.0' }
+47 verbose addNamed [ 'imager.js', '~0.2.0' ]
+48 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+49 silly lockFile 79941db0-imager-js-0-2-0 imager.js@~0.2.0
+50 verbose lock imager.js@~0.2.0 /Users/mrockall/.npm/79941db0-imager-js-0-2-0.lock
+51 verbose cache add [ 'requirejs@~2.1.11', null ]
+52 verbose cache add name=undefined spec="requirejs@~2.1.11" args=["requirejs@~2.1.11",null]
+53 verbose parsed url { protocol: null,
+53 verbose parsed url   slashes: null,
+53 verbose parsed url   auth: null,
+53 verbose parsed url   host: null,
+53 verbose parsed url   port: null,
+53 verbose parsed url   hostname: null,
+53 verbose parsed url   hash: null,
+53 verbose parsed url   search: null,
+53 verbose parsed url   query: null,
+53 verbose parsed url   pathname: 'requirejs@~2.1.11',
+53 verbose parsed url   path: 'requirejs@~2.1.11',
+53 verbose parsed url   href: 'requirejs@~2.1.11' }
+54 verbose cache add name="requirejs" spec="~2.1.11" args=["requirejs","~2.1.11"]
+55 verbose parsed url { protocol: null,
+55 verbose parsed url   slashes: null,
+55 verbose parsed url   auth: null,
+55 verbose parsed url   host: null,
+55 verbose parsed url   port: null,
+55 verbose parsed url   hostname: null,
+55 verbose parsed url   hash: null,
+55 verbose parsed url   search: null,
+55 verbose parsed url   query: null,
+55 verbose parsed url   pathname: '~2.1.11',
+55 verbose parsed url   path: '~2.1.11',
+55 verbose parsed url   href: '~2.1.11' }
+56 verbose addNamed [ 'requirejs', '~2.1.11' ]
+57 verbose addNamed [ null, '>=2.1.11-0 <2.2.0-0' ]
+58 silly lockFile 899aff4b-requirejs-2-1-11 requirejs@~2.1.11
+59 verbose lock requirejs@~2.1.11 /Users/mrockall/.npm/899aff4b-requirejs-2-1-11.lock
+60 verbose cache add [ 'requirejs-text@~2.0.10', null ]
+61 verbose cache add name=undefined spec="requirejs-text@~2.0.10" args=["requirejs-text@~2.0.10",null]
+62 verbose parsed url { protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: 'requirejs-text@~2.0.10',
+62 verbose parsed url   path: 'requirejs-text@~2.0.10',
+62 verbose parsed url   href: 'requirejs-text@~2.0.10' }
+63 verbose cache add name="requirejs-text" spec="~2.0.10" args=["requirejs-text","~2.0.10"]
+64 verbose parsed url { protocol: null,
+64 verbose parsed url   slashes: null,
+64 verbose parsed url   auth: null,
+64 verbose parsed url   host: null,
+64 verbose parsed url   port: null,
+64 verbose parsed url   hostname: null,
+64 verbose parsed url   hash: null,
+64 verbose parsed url   search: null,
+64 verbose parsed url   query: null,
+64 verbose parsed url   pathname: '~2.0.10',
+64 verbose parsed url   path: '~2.0.10',
+64 verbose parsed url   href: '~2.0.10' }
+65 verbose addNamed [ 'requirejs-text', '~2.0.10' ]
+66 verbose addNamed [ null, '>=2.0.10-0 <2.1.0-0' ]
+67 silly lockFile 63a8936b-requirejs-text-2-0-10 requirejs-text@~2.0.10
+68 verbose lock requirejs-text@~2.0.10 /Users/mrockall/.npm/63a8936b-requirejs-text-2-0-10.lock
+69 silly lockFile b96e7c19-svg-js-1-0-0-rc-6 svg.js@~1.0.0-rc.6
+70 verbose lock svg.js@~1.0.0-rc.6 /Users/mrockall/.npm/b96e7c19-svg-js-1-0-0-rc-6.lock
+71 verbose cache add [ 'jquery@~2.1.0', null ]
+72 verbose cache add name=undefined spec="jquery@~2.1.0" args=["jquery@~2.1.0",null]
+73 verbose parsed url { protocol: null,
+73 verbose parsed url   slashes: null,
+73 verbose parsed url   auth: null,
+73 verbose parsed url   host: null,
+73 verbose parsed url   port: null,
+73 verbose parsed url   hostname: null,
+73 verbose parsed url   hash: null,
+73 verbose parsed url   search: null,
+73 verbose parsed url   query: null,
+73 verbose parsed url   pathname: 'jquery@~2.1.0',
+73 verbose parsed url   path: 'jquery@~2.1.0',
+73 verbose parsed url   href: 'jquery@~2.1.0' }
+74 verbose cache add name="jquery" spec="~2.1.0" args=["jquery","~2.1.0"]
+75 verbose parsed url { protocol: null,
+75 verbose parsed url   slashes: null,
+75 verbose parsed url   auth: null,
+75 verbose parsed url   host: null,
+75 verbose parsed url   port: null,
+75 verbose parsed url   hostname: null,
+75 verbose parsed url   hash: null,
+75 verbose parsed url   search: null,
+75 verbose parsed url   query: null,
+75 verbose parsed url   pathname: '~2.1.0',
+75 verbose parsed url   path: '~2.1.0',
+75 verbose parsed url   href: '~2.1.0' }
+76 verbose addNamed [ 'jquery', '~2.1.0' ]
+77 verbose addNamed [ null, '>=2.1.0-0 <2.2.0-0' ]
+78 silly lockFile 76a8e64b-jquery-2-1-0 jquery@~2.1.0
+79 verbose lock jquery@~2.1.0 /Users/mrockall/.npm/76a8e64b-jquery-2-1-0.lock
+80 verbose cache add [ 'jquery.scrollTo@~1.4.11', null ]
+81 verbose cache add name=undefined spec="jquery.scrollTo@~1.4.11" args=["jquery.scrollTo@~1.4.11",null]
+82 verbose parsed url { protocol: null,
+82 verbose parsed url   slashes: null,
+82 verbose parsed url   auth: null,
+82 verbose parsed url   host: null,
+82 verbose parsed url   port: null,
+82 verbose parsed url   hostname: null,
+82 verbose parsed url   hash: null,
+82 verbose parsed url   search: null,
+82 verbose parsed url   query: null,
+82 verbose parsed url   pathname: 'jquery.scrollTo@~1.4.11',
+82 verbose parsed url   path: 'jquery.scrollTo@~1.4.11',
+82 verbose parsed url   href: 'jquery.scrollTo@~1.4.11' }
+83 verbose cache add name="jquery.scrollTo" spec="~1.4.11" args=["jquery.scrollTo","~1.4.11"]
+84 verbose parsed url { protocol: null,
+84 verbose parsed url   slashes: null,
+84 verbose parsed url   auth: null,
+84 verbose parsed url   host: null,
+84 verbose parsed url   port: null,
+84 verbose parsed url   hostname: null,
+84 verbose parsed url   hash: null,
+84 verbose parsed url   search: null,
+84 verbose parsed url   query: null,
+84 verbose parsed url   pathname: '~1.4.11',
+84 verbose parsed url   path: '~1.4.11',
+84 verbose parsed url   href: '~1.4.11' }
+85 verbose addNamed [ 'jquery.scrollTo', '~1.4.11' ]
+86 verbose addNamed [ null, '>=1.4.11-0 <1.5.0-0' ]
+87 silly lockFile b307502a-jquery-scrollTo-1-4-11 jquery.scrollTo@~1.4.11
+88 verbose lock jquery.scrollTo@~1.4.11 /Users/mrockall/.npm/b307502a-jquery-scrollTo-1-4-11.lock
+89 verbose cache add [ 'grunt@~0.4.1', null ]
+90 verbose cache add name=undefined spec="grunt@~0.4.1" args=["grunt@~0.4.1",null]
+91 verbose parsed url { protocol: null,
+91 verbose parsed url   slashes: null,
+91 verbose parsed url   auth: null,
+91 verbose parsed url   host: null,
+91 verbose parsed url   port: null,
+91 verbose parsed url   hostname: null,
+91 verbose parsed url   hash: null,
+91 verbose parsed url   search: null,
+91 verbose parsed url   query: null,
+91 verbose parsed url   pathname: 'grunt@~0.4.1',
+91 verbose parsed url   path: 'grunt@~0.4.1',
+91 verbose parsed url   href: 'grunt@~0.4.1' }
+92 verbose cache add name="grunt" spec="~0.4.1" args=["grunt","~0.4.1"]
+93 verbose parsed url { protocol: null,
+93 verbose parsed url   slashes: null,
+93 verbose parsed url   auth: null,
+93 verbose parsed url   host: null,
+93 verbose parsed url   port: null,
+93 verbose parsed url   hostname: null,
+93 verbose parsed url   hash: null,
+93 verbose parsed url   search: null,
+93 verbose parsed url   query: null,
+93 verbose parsed url   pathname: '~0.4.1',
+93 verbose parsed url   path: '~0.4.1',
+93 verbose parsed url   href: '~0.4.1' }
+94 verbose addNamed [ 'grunt', '~0.4.1' ]
+95 verbose addNamed [ null, '>=0.4.1-0 <0.5.0-0' ]
+96 silly lockFile 766a3bd3-grunt-0-4-1 grunt@~0.4.1
+97 verbose lock grunt@~0.4.1 /Users/mrockall/.npm/766a3bd3-grunt-0-4-1.lock
+98 verbose cache add [ 'grunt-contrib-jshint@~0.6.3', null ]
+99 verbose cache add name=undefined spec="grunt-contrib-jshint@~0.6.3" args=["grunt-contrib-jshint@~0.6.3",null]
+100 verbose parsed url { protocol: null,
+100 verbose parsed url   slashes: null,
+100 verbose parsed url   auth: null,
+100 verbose parsed url   host: null,
+100 verbose parsed url   port: null,
+100 verbose parsed url   hostname: null,
+100 verbose parsed url   hash: null,
+100 verbose parsed url   search: null,
+100 verbose parsed url   query: null,
+100 verbose parsed url   pathname: 'grunt-contrib-jshint@~0.6.3',
+100 verbose parsed url   path: 'grunt-contrib-jshint@~0.6.3',
+100 verbose parsed url   href: 'grunt-contrib-jshint@~0.6.3' }
+101 verbose cache add name="grunt-contrib-jshint" spec="~0.6.3" args=["grunt-contrib-jshint","~0.6.3"]
+102 verbose parsed url { protocol: null,
+102 verbose parsed url   slashes: null,
+102 verbose parsed url   auth: null,
+102 verbose parsed url   host: null,
+102 verbose parsed url   port: null,
+102 verbose parsed url   hostname: null,
+102 verbose parsed url   hash: null,
+102 verbose parsed url   search: null,
+102 verbose parsed url   query: null,
+102 verbose parsed url   pathname: '~0.6.3',
+102 verbose parsed url   path: '~0.6.3',
+102 verbose parsed url   href: '~0.6.3' }
+103 verbose addNamed [ 'grunt-contrib-jshint', '~0.6.3' ]
+104 verbose addNamed [ null, '>=0.6.3-0 <0.7.0-0' ]
+105 silly lockFile 6f38214b-grunt-contrib-jshint-0-6-3 grunt-contrib-jshint@~0.6.3
+106 verbose lock grunt-contrib-jshint@~0.6.3 /Users/mrockall/.npm/6f38214b-grunt-contrib-jshint-0-6-3.lock
+107 verbose cache add [ 'grunt-contrib-uglify@~0.2.2', null ]
+108 verbose cache add name=undefined spec="grunt-contrib-uglify@~0.2.2" args=["grunt-contrib-uglify@~0.2.2",null]
+109 verbose parsed url { protocol: null,
+109 verbose parsed url   slashes: null,
+109 verbose parsed url   auth: null,
+109 verbose parsed url   host: null,
+109 verbose parsed url   port: null,
+109 verbose parsed url   hostname: null,
+109 verbose parsed url   hash: null,
+109 verbose parsed url   search: null,
+109 verbose parsed url   query: null,
+109 verbose parsed url   pathname: 'grunt-contrib-uglify@~0.2.2',
+109 verbose parsed url   path: 'grunt-contrib-uglify@~0.2.2',
+109 verbose parsed url   href: 'grunt-contrib-uglify@~0.2.2' }
+110 verbose cache add name="grunt-contrib-uglify" spec="~0.2.2" args=["grunt-contrib-uglify","~0.2.2"]
+111 verbose parsed url { protocol: null,
+111 verbose parsed url   slashes: null,
+111 verbose parsed url   auth: null,
+111 verbose parsed url   host: null,
+111 verbose parsed url   port: null,
+111 verbose parsed url   hostname: null,
+111 verbose parsed url   hash: null,
+111 verbose parsed url   search: null,
+111 verbose parsed url   query: null,
+111 verbose parsed url   pathname: '~0.2.2',
+111 verbose parsed url   path: '~0.2.2',
+111 verbose parsed url   href: '~0.2.2' }
+112 verbose addNamed [ 'grunt-contrib-uglify', '~0.2.2' ]
+113 verbose addNamed [ null, '>=0.2.2-0 <0.3.0-0' ]
+114 silly lockFile deac4dba-grunt-contrib-uglify-0-2-2 grunt-contrib-uglify@~0.2.2
+115 verbose lock grunt-contrib-uglify@~0.2.2 /Users/mrockall/.npm/deac4dba-grunt-contrib-uglify-0-2-2.lock
+116 verbose cache add [ 'grunt-contrib-requirejs@~0.4.1', null ]
+117 verbose cache add name=undefined spec="grunt-contrib-requirejs@~0.4.1" args=["grunt-contrib-requirejs@~0.4.1",null]
+118 verbose parsed url { protocol: null,
+118 verbose parsed url   slashes: null,
+118 verbose parsed url   auth: null,
+118 verbose parsed url   host: null,
+118 verbose parsed url   port: null,
+118 verbose parsed url   hostname: null,
+118 verbose parsed url   hash: null,
+118 verbose parsed url   search: null,
+118 verbose parsed url   query: null,
+118 verbose parsed url   pathname: 'grunt-contrib-requirejs@~0.4.1',
+118 verbose parsed url   path: 'grunt-contrib-requirejs@~0.4.1',
+118 verbose parsed url   href: 'grunt-contrib-requirejs@~0.4.1' }
+119 verbose cache add name="grunt-contrib-requirejs" spec="~0.4.1" args=["grunt-contrib-requirejs","~0.4.1"]
+120 verbose parsed url { protocol: null,
+120 verbose parsed url   slashes: null,
+120 verbose parsed url   auth: null,
+120 verbose parsed url   host: null,
+120 verbose parsed url   port: null,
+120 verbose parsed url   hostname: null,
+120 verbose parsed url   hash: null,
+120 verbose parsed url   search: null,
+120 verbose parsed url   query: null,
+120 verbose parsed url   pathname: '~0.4.1',
+120 verbose parsed url   path: '~0.4.1',
+120 verbose parsed url   href: '~0.4.1' }
+121 verbose addNamed [ 'grunt-contrib-requirejs', '~0.4.1' ]
+122 verbose addNamed [ null, '>=0.4.1-0 <0.5.0-0' ]
+123 silly lockFile 334939f7-grunt-contrib-requirejs-0-4-1 grunt-contrib-requirejs@~0.4.1
+124 verbose lock grunt-contrib-requirejs@~0.4.1 /Users/mrockall/.npm/334939f7-grunt-contrib-requirejs-0-4-1.lock
+125 silly addNameRange { name: 'backbone', range: '>=1.1.0-0 <1.2.0-0', hasData: false }
+126 silly addNameRange { name: 'hammerjs',
+126 silly addNameRange   range: '>=1.0.10-0 <1.1.0-0',
+126 silly addNameRange   hasData: false }
+127 silly addNameRange { name: 'underscore',
+127 silly addNameRange   range: '>=1.5.2-0 <1.6.0-0',
+127 silly addNameRange   hasData: false }
+128 silly addNameRange { name: 'svg.js',
+128 silly addNameRange   range: '>=1.0.0-rc.6 <1.1.0-0',
+128 silly addNameRange   hasData: false }
+129 silly addNameRange { name: 'requirejs',
+129 silly addNameRange   range: '>=2.1.11-0 <2.2.0-0',
+129 silly addNameRange   hasData: false }
+130 silly addNameRange { name: 'imager.js',
+130 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+130 silly addNameRange   hasData: false }
+131 silly addNameRange { name: 'jquery', range: '>=2.1.0-0 <2.2.0-0', hasData: false }
+132 silly addNameRange { name: 'grunt', range: '>=0.4.1-0 <0.5.0-0', hasData: false }
+133 silly addNameRange { name: 'requirejs-text',
+133 silly addNameRange   range: '>=2.0.10-0 <2.1.0-0',
+133 silly addNameRange   hasData: false }
+134 silly addNameRange { name: 'grunt-contrib-uglify',
+134 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+134 silly addNameRange   hasData: false }
+135 verbose url raw hammerjs
+136 verbose url resolving [ 'https://registry.npmjs.org/', './hammerjs' ]
+137 verbose url resolved https://registry.npmjs.org/hammerjs
+138 info trying registry request attempt 1 at 18:29:01
+139 http GET https://registry.npmjs.org/hammerjs
+140 silly addNameRange { name: 'grunt-contrib-jshint',
+140 silly addNameRange   range: '>=0.6.3-0 <0.7.0-0',
+140 silly addNameRange   hasData: false }
+141 silly addNameRange { name: 'grunt-contrib-requirejs',
+141 silly addNameRange   range: '>=0.4.1-0 <0.5.0-0',
+141 silly addNameRange   hasData: false }
+142 silly addNameRange { name: 'jquery.scrollTo',
+142 silly addNameRange   range: '>=1.4.11-0 <1.5.0-0',
+142 silly addNameRange   hasData: false }
+143 verbose url raw svg.js
+144 verbose url resolving [ 'https://registry.npmjs.org/', './svg.js' ]
+145 verbose url resolved https://registry.npmjs.org/svg.js
+146 info trying registry request attempt 1 at 18:29:01
+147 http GET https://registry.npmjs.org/svg.js
+148 verbose url raw imager.js
+149 verbose url resolving [ 'https://registry.npmjs.org/', './imager.js' ]
+150 verbose url resolved https://registry.npmjs.org/imager.js
+151 info trying registry request attempt 1 at 18:29:01
+152 http GET https://registry.npmjs.org/imager.js
+153 verbose url raw jquery
+154 verbose url resolving [ 'https://registry.npmjs.org/', './jquery' ]
+155 verbose url resolved https://registry.npmjs.org/jquery
+156 info trying registry request attempt 1 at 18:29:01
+157 http GET https://registry.npmjs.org/jquery
+158 verbose url raw requirejs-text
+159 verbose url resolving [ 'https://registry.npmjs.org/', './requirejs-text' ]
+160 verbose url resolved https://registry.npmjs.org/requirejs-text
+161 info trying registry request attempt 1 at 18:29:01
+162 http GET https://registry.npmjs.org/requirejs-text
+163 verbose url raw jquery.scrollTo
+164 verbose url resolving [ 'https://registry.npmjs.org/', './jquery.scrollTo' ]
+165 verbose url resolved https://registry.npmjs.org/jquery.scrollTo
+166 info trying registry request attempt 1 at 18:29:01
+167 http GET https://registry.npmjs.org/jquery.scrollTo
+168 verbose url raw requirejs
+169 verbose url resolving [ 'https://registry.npmjs.org/', './requirejs' ]
+170 verbose url resolved https://registry.npmjs.org/requirejs
+171 info trying registry request attempt 1 at 18:29:02
+172 verbose etag "35UW2J4AMTBD8WVQFQWF3MGTK"
+173 http GET https://registry.npmjs.org/requirejs
+174 verbose url raw backbone
+175 verbose url resolving [ 'https://registry.npmjs.org/', './backbone' ]
+176 verbose url resolved https://registry.npmjs.org/backbone
+177 info trying registry request attempt 1 at 18:29:02
+178 verbose etag "70APM5OCWYON8ZK0NDQP139EB"
+179 http GET https://registry.npmjs.org/backbone
+180 verbose url raw underscore
+181 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+182 verbose url resolved https://registry.npmjs.org/underscore
+183 info trying registry request attempt 1 at 18:29:02
+184 verbose etag "5U6USDAWIHTYVA3EB9FR4S7QY"
+185 http GET https://registry.npmjs.org/underscore
+186 verbose url raw grunt-contrib-jshint
+187 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-jshint' ]
+188 verbose url resolved https://registry.npmjs.org/grunt-contrib-jshint
+189 info trying registry request attempt 1 at 18:29:02
+190 verbose etag "CO2MC238NJZR9090VXKV0ITWW"
+191 http GET https://registry.npmjs.org/grunt-contrib-jshint
+192 verbose url raw grunt-contrib-requirejs
+193 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-requirejs' ]
+194 verbose url resolved https://registry.npmjs.org/grunt-contrib-requirejs
+195 info trying registry request attempt 1 at 18:29:02
+196 verbose etag "E6MFXHTE33ONHWLEVNN4SZ1T1"
+197 http GET https://registry.npmjs.org/grunt-contrib-requirejs
+198 verbose url raw grunt-contrib-uglify
+199 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-uglify' ]
+200 verbose url resolved https://registry.npmjs.org/grunt-contrib-uglify
+201 info trying registry request attempt 1 at 18:29:02
+202 verbose etag "5Q0Q5NKCNXOQJSSEVSNXLZILJ"
+203 http GET https://registry.npmjs.org/grunt-contrib-uglify
+204 verbose url raw grunt
+205 verbose url resolving [ 'https://registry.npmjs.org/', './grunt' ]
+206 verbose url resolved https://registry.npmjs.org/grunt
+207 info trying registry request attempt 1 at 18:29:02
+208 verbose etag "6JYGZB5W20D0S5N0AZQH40IFA"
+209 http GET https://registry.npmjs.org/grunt
+210 http 404 https://registry.npmjs.org/requirejs-text
+211 silly registry.get cb [ 404,
+211 silly registry.get   { date: 'Sat, 19 Apr 2014 17:29:03 GMT',
+211 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+211 silly registry.get     'content-type': 'application/json',
+211 silly registry.get     via: '1.1 varnish',
+211 silly registry.get     'cache-control': 'max-age=0',
+211 silly registry.get     'content-length': '52',
+211 silly registry.get     'accept-ranges': 'bytes',
+211 silly registry.get     age: '0',
+211 silly registry.get     'x-served-by': 'cache-v36-ASH, cache-lcy1128-LCY',
+211 silly registry.get     'x-cache': 'MISS, MISS',
+211 silly registry.get     'x-cache-hits': '0, 0',
+211 silly registry.get     'x-timer': 'S1397928543.450552225,VS0,VS40,VE49,VE89',
+211 silly registry.get     'keep-alive': 'timeout=10, max=50',
+211 silly registry.get     connection: 'Keep-Alive' } ]
+212 silly lockFile 63a8936b-requirejs-text-2-0-10 requirejs-text@~2.0.10
+213 silly lockFile 63a8936b-requirejs-text-2-0-10 requirejs-text@~2.0.10
+214 error 404 'requirejs-text' is not in the npm registry.
+214 error 404 You should bug the author to publish it
+214 error 404
+214 error 404 Note that you can also install from a
+214 error 404 tarball, folder, or http url, or git url.
+215 error System Darwin 13.1.0
+216 error command "node" "/usr/local/bin/npm" "install"
+217 error cwd /Library/WebServer/Server/blue_pirate
+218 error node -v v0.10.22
+219 error npm -v 1.3.14
+220 error code E404
+221 verbose exit [ 1, true ]

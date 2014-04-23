@@ -1,0 +1,23 @@
+{
+  "name": "BluePirate",
+  "description": "Score tracking application for the Blue Pirate",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "backbone": "~1.1.0",
+    "hammerjs": "~1.0.10",
+    "imager.js": "~0.2.0",
+    "svg.js": "~1.0.0-rc.6",
+    "underscore": "~1.5.2",
+    "requirejs": "~2.1.11",
+    "requirejs-text": "~2.0.10",
+    "jquery": "~2.1.0",
+    "jquery.scrollTo": "~1.4.11"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-requirejs": "~0.4.1"
+  }
+}

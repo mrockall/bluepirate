@@ -1,0 +1,28 @@
+<header>
+  <h1>
+    <span>The</span> Blue Pirate
+  </h1>
+  <h3>
+    Sat 26th Apr <span>at</span> Athenry Golf Club
+  </h3>
+</header>
+
+<div class="list_title">
+  <div class="headers">
+    <div class="cell left">Pos</div>
+
+    <div class="cell right">Thru</div>
+    <div class="cell right">Pts</div>
+  </div>
+</div>
+<ul class="list">
+</ul>
+
+<div class="actions">
+  <% if(logged_in){ %>
+    <a href="#score" class="button score">Add Scores</a>
+    <a href="/logout" data-bypass class="button logout">Logout</a>
+  <% } else { %>
+    <a href="#login" class="button login">Login to keep score</a>
+  <% } %>
+</div>

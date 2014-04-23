@@ -1,0 +1,90 @@
+@mixin keyframe ($animation_name) {
+  @-webkit-keyframes $animation_name {
+    @content;
+  }
+
+  @-moz-keyframes $animation_name {
+    @content;
+  }
+
+  @-o-keyframes $animation_name {
+    @content;
+  }
+
+  @keyframes $animation_name {
+    @content;
+  }
+}
+
+@mixin animation($animation...) {
+  -o-animation: $animation;
+  -moz-animation: $animation;
+  -webkit-animation: $animation;
+  animation: $animation;
+}
+
+@mixin transform($transformation...) {
+  -webkit-transform: $transformation;
+      -ms-transform: $transformation;
+          transform: $transformation;
+}
+
+@mixin box-sizing($box-sizing){
+  -webkit-box-sizing: $box-sizing;
+     -moz-box-sizing: $box-sizing;
+          box-sizing: $box-sizing;
+}
+
+@mixin border-radius($radius...) {
+-webkit-border-radius: $radius;
+        border-radius: $radius;
+}
+
+@mixin box-shadow($shadow...) {
+  -webkit-box-shadow: $shadow;
+          box-shadow: $shadow;
+}
+
+$break-small: 360px;
+$break-mobile: 500px;
+$break-large: 1024px;
+
+@mixin respond-to($media) {
+  @if $media == mobile {
+    @media only screen and (max-width: $break-small) { @content; }
+  }
+  @else if $media == handhelds {
+    @media only screen and (min-width: $break-small + 1) and (max-width: $break-mobile - 1) { @content; }
+  }
+  @else if $media == medium-screens {
+    @media only screen and (min-width: $break-mobile + 1) and (max-width: $break-large - 1) { @content; }
+  }
+  @else if $media == wide-screens {
+    @media only screen and (min-width: $break-large) { @content; }
+  }
+}
+
+@mixin gradient($from, $to) {
+  background: -webkit-gradient(linear, left top, left bottom, from($from), to($to));
+  background: -moz-linear-gradient(top,  $from, $to);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$from}', endColorstr='#{$to}');
+}
+
+@mixin radial-gradient($from, $to) {
+  background: $from; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover,  $from 0%, $to 100%); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,$from), color-stop(100%,$to)); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover,  $from 0%,$to 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover,  $from 0%,$to 100%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover,  $from 0%,$to 100%); /* IE10+ */
+  background: radial-gradient(ellipse at center,  $from 0%,$to 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$from}', endColorstr='#{$to}',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
