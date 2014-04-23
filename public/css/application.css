@@ -389,7 +389,7 @@ html, body {
   width: 100%;
   margin: 0;
   padding: 0;
-  font-size: 17px;
+  font-size: 16px;
   font-family: 'Montserrat', sans-serif;
   background: #dedede;
   /* Old browsers */
@@ -1096,7 +1096,7 @@ h3 {
 .button {
   position: relative;
   display: block;
-  padding: 0 1.8em;
+  padding: 0 1.8em 0 1em;
   margin: 0;
   font-size: 1.5em;
   height: 3.4em;
@@ -1121,6 +1121,7 @@ h3 {
     -ms-transform: translateY(-40%);
     transform: translateY(-40%); }
   .button.back {
+    padding: 0 1em 0 1.8em;
     border-bottom: 0 none; }
     .button.back:before {
       content: "\f053";
