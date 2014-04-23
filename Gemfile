@@ -14,7 +14,6 @@ source 'https://rubygems.org'
 gem 'rake'
 
 # Component requirements
-gem 'rabl'
 gem 'oj'
 gem 'sass'
 gem 'puma'
@@ -31,6 +30,8 @@ gem 'omniauth-identity'
 
 # Padrino Stable Gem
 gem 'padrino', '0.12.0'
+
+gem 'rabl'
 
 # Or Padrino Edge
 # gem 'padrino', :github => 'padrino/padrino-framework'
