@@ -40,6 +40,7 @@ define(function(require, exports, module) {
   };
 
   $.ajaxSetup({
+    cache: false,
     beforeSend: function(xhr, settings){
       xhr.setRequestHeader('X-CSRF-Token', csrf_token);
     }
